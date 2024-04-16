@@ -14,7 +14,7 @@ namespace UnitTest1
 		{
 
 			CoolClass coolClass;
-			Assert::AreEqual(2, coolClass.Calc(1, 2));
+			Assert::AreEqual(2, coolClass.Calc(1, 2)) //removed semi-colon, should cause a syntax/compiler error
 		}
 
 		TEST_METHOD(TestMethod2)
