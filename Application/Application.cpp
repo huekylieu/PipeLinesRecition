@@ -16,7 +16,7 @@ int CoolClass::Calc(int a, int b)
 {
     if (a == b)
     {
-        cout << "Yippee!"; //added a cout line
+        //whoops, that shouldn't have merged
         return 2 - a;
     }
     else if(a>b)
