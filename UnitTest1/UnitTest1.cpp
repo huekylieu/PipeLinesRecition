@@ -14,7 +14,8 @@ namespace UnitTest1
 		{
 
 			CoolClass coolClass;
-			Assert::AreEqual(2, coolClass.Calc(1, 2)); //fixed master, whoops
+      
+			Assert::AreEqual(100, coolClass.Calc(1, 2)); //this should cause a test case error
 		}
 
 		TEST_METHOD(TestMethod2)
