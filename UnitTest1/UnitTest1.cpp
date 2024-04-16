@@ -14,6 +14,7 @@ namespace UnitTest1
 		{
 
 			CoolClass coolClass;
+      
 			Assert::AreEqual(100, coolClass.Calc(1, 2)); //this should cause a test case error
 		}
 
